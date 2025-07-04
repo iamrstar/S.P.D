@@ -1,0 +1,113 @@
+# Query: S.P.D
+# ContextLines: 1
+
+26 results - 11 files
+
+app\layout.jsx:
+   8  export const metadata = {
+   9:   title: "S.P.D College",
+  10:   description: "S.P.D College - Excellence in Education",
+  11      generator: 'v0.dev'
+
+app\about\college\page.jsx:
+  33          <div className="relative h-64 md:h-96">
+  34:           <Image src="/college-building.jpg" alt="S.P.D College Campus" fill className="object-cover" />
+  35            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+  36:             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center">About  College</h1>
+  37            </div>
+
+  48                <p className="mb-4">
+  49:                 S.P.D College was established in 2005 with a vision to provide quality education to students from all
+  50                  sections of society. Named after the renowned educationist Shri P.D. Pandey, the college has grown from
+
+app\about\history\page.jsx:
+   33          <div className="relative h-64 md:h-96">
+   34:           <Image src="/college-history.jpg" alt="S.P.D College History" fill className="object-cover" />
+   35            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+
+   45                <span className="w-10 h-1 bg-primary mr-3"></span>
+   46:               The History of S.P.D College
+   47              </h2>
+
+   50                <p className="mb-6">
+   51:                 S.P.D College has a rich and inspiring history that spans over two decades. The college was established
+   52                  in 2005 with a vision to provide quality education to students from all sections of society. Named after
+
+   63                    <p className="text-gray-700">
+   64:                     S.P.D College was established with just three departments - Arts, Science, and Commerce. The college
+   65                      started with a modest infrastructure and a small team of dedicated faculty members. The first batch
+
+  135                    <p className="text-gray-700">
+  136:                     Today, S.P.D College stands as a premier educational institution with over 2,000 students, 100
+  137                      faculty members, and state-of-the-art infrastructure. The college continues to evolve and adapt to
+
+  187                  <p className="text-gray-700">
+  188:                   We invite you to be a part of our journey and contribute to the legacy of S.P.D College.
+  189                  </p>
+
+app\about\principal\page.jsx:
+  45                    <h3 className="text-xl font-bold text-gray-800">Dr. Rajesh Kumar</h3>
+  46:                   <p className="text-gray-600">Principal, S.P.D College</p>
+  47                    <p className="text-sm text-gray-500 mt-1">Ph.D., M.Phil., M.A. (Education)</p>
+
+  55                    <p className="mb-4">
+  56:                     It gives me immense pleasure to welcome you to S.P.D College, an institution committed to academic
+  57                      excellence, character building, and holistic development of students. As the Principal, I am proud
+
+  61                    <p className="mb-4">
+  62:                     At S.P.D College, we believe that education is not just about acquiring knowledge but also about
+  63                      developing skills, values, and attitudes that prepare students for the challenges of life. Our
+
+app\about\vision\page.jsx:
+  180                <p className="text-gray-700 mb-4">
+  181:                 At S.P.D College, we are committed to upholding our vision, mission, and values in all our activities
+  182                  and initiatives. We continuously strive to improve our programs, facilities, and services to provide the
+
+app\academics\departments\page.jsx:
+  103              <p className="text-gray-700 mb-8">
+  104:               S.P.D College has several academic departments offering undergraduate programs in various disciplines.
+  105                Each department is headed by experienced faculty members and equipped with modern facilities to provide
+
+app\academics\faculty\page.jsx:
+  127              <p className="text-gray-700 mb-8">
+  128:               S.P.D College has a team of highly qualified and experienced faculty members who are dedicated to
+  129                providing quality education to students. Our faculty members are experts in their respective fields and
+
+app\contact\page.jsx:
+  176                  <iframe
+  177:   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.445021558319!2d83.81988311501247!3d24.16967608440308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398d6e2fcb9c58b5%3A0x8b7bca7bfaae69ff!2sS.P.D%20College%2C%20Garhwa%2C%20Jharkhand%20822114!5e0!3m2!1sen!2sin!4v1686130106187!5m2!1sen!2sin"
+  178                    width="100%"
+
+components\AboutSection.jsx:
+  10              <span className="w-10 h-1 bg-primary mr-3"></span>
+  11:             About S.P.D College
+  12            </h2>
+
+  16                <div className="relative h-64 w-full rounded-lg overflow-hidden">
+  17:                 <Image src="/college-building.jpg" alt="S.P.D College Building" fill className="object-cover" />
+  18                </div>
+
+  22                <p className="text-gray-700 mb-4">
+  23:                 S.P.D College is a premier educational institution committed to providing quality education and
+  24                  fostering academic excellence. Established with a vision to empower students with knowledge and skills,
+
+components\Footer.jsx:
+   13                <div className="relative h-12 w-12 mr-3">
+   14:                 <Image src="/logo.png" alt="S.P.D College Logo" width={48} height={48} className="object-contain" />
+   15                </div>
+   16                <div>
+   17:                 <h3 className="text-lg font-bold">S.P.D College</h3>
+   18                  <p className="text-xs text-gray-400">Excellence in Education</p>
+
+   22              <p className="text-gray-400 mb-4">
+   23:               S.P.D College is committed to providing quality education and fostering academic excellence in a
+   24                supportive learning environment.
+
+  169            <p className="text-gray-400 text-sm text-center md:text-left">
+  170:             &copy; {new Date().getFullYear()} S.P.D College. All Rights Reserved.
+  171            </p>
+
+components\Hero.jsx:
+  8        <div className="relative h-[400px] md:h-[500px] overflow-hidden">
+  9:         <Image src="/campus.jpg" alt="S.P.D College Campus" fill className="object-cover" />
+  10          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-6 md:px-12">
