@@ -75,7 +75,7 @@ const Header = () => {
       <div className="bg-primary text-white py-2">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4 text-sm">
-            <span className="hidden sm:inline">Email: info@spdcollege.edu.in</span>
+            <span className="hidden sm:inline">Email:spdc.npu2015@gmail.com</span>
             <span className="hidden sm:inline">|</span>
             <span>Phone: +919162486419</span>
           </div>

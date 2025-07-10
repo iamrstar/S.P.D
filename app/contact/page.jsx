@@ -47,9 +47,7 @@ export default function Contact() {
                     <div>
                       <h3 className="text-lg font-bold text-gray-800 mb-1">Address</h3>
                       <p className="text-gray-700">
-                        123 College Road, University Area
-                        <br />
-                        City - 123456, State, India
+                      Beside NH-75, At- Chetna, Garhwa, Dist, Garhwa, Jharkhand 822114, India
                       </p>
                     </div>
                   </div>
@@ -61,9 +59,9 @@ export default function Contact() {
                     <div>
                       <h3 className="text-lg font-bold text-gray-800 mb-1">Phone</h3>
                       <p className="text-gray-700">
-                        Main Office: +91 1234567890
+                        Main Office: +91 9162486419
                         <br />
-                        Admission Helpline: +91 9876543210
+                        Admission Helpline: +91 9162486419
                       </p>
                     </div>
                   </div>
@@ -75,11 +73,11 @@ export default function Contact() {
                     <div>
                       <h3 className="text-lg font-bold text-gray-800 mb-1">Email</h3>
                       <p className="text-gray-700">
-                        General Inquiries: info@spdpandey.edu.in
+                        General Inquiries: spdc.npu2015@gmail.com
                         <br />
-                        Admissions: admissions@spdpandey.edu.in
+                        Admissions: spdc.npu2015@gmail.com
                         <br />
-                        Principal's Office: principal@spdpandey.edu.in
+                        Principal's Office: spdc.npu2015@gmail.com
                       </p>
                     </div>
                   </div>
@@ -174,7 +172,7 @@ export default function Contact() {
               <h2 className="text-2xl font-bold text-gray-800 mb-6">Find Us on Map</h2>
               <div className="h-96 w-full rounded-lg overflow-hidden shadow-md">
                 <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.445021558319!2d83.81988311501247!3d24.16967608440308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398d6e2fcb9c58b5%3A0x8b7bca7bfaae69ff!2sS.P.D%20College%2C%20Garhwa%2C%20Jharkhand%20822114!5e0!3m2!1sen!2sin!4v1686130106187!5m2!1sen!2sin"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14694.18340421976!2d83.829157!3d24.173216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398c0e662e402257%3A0x856f35f5bc1caa0!2sSurat%20Pandey%20Degree%20College!5e0!3m2!1sen!2sin!4v1720595184797!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -194,11 +192,11 @@ export default function Contact() {
                 </p>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-gray-700">+91 9876543210</span>
+                  <span className="text-gray-700">+91 9162486419</span>
                 </div>
                 <div className="flex items-center mt-2">
                   <Mail className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-gray-700">admissions@spdpandey.edu.in</span>
+                  <span className="text-gray-700">spdc.npu2015@gmail.com</span>
                 </div>
               </div>
 
@@ -210,11 +208,11 @@ export default function Contact() {
                 </p>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-gray-700">+91 8765432109</span>
+                  <span className="text-gray-700">+91 9162486419</span>
                 </div>
                 <div className="flex items-center mt-2">
                   <Mail className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-gray-700">academics@spdpandey.edu.in</span>
+                  <span className="text-gray-700">spdc.npu2015@gmail.com</span>
                 </div>
               </div>
 
@@ -226,11 +224,11 @@ export default function Contact() {
                 </p>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-gray-700">+91 7654321098</span>
+                  <span className="text-gray-700">+91 9162486419</span>
                 </div>
                 <div className="flex items-center mt-2">
                   <Mail className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-gray-700">admin@spdpandey.edu.in</span>
+                  <span className="text-gray-700">spdc.npu2015@gmail.com</span>
                 </div>
               </div>
             </div>

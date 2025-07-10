@@ -69,15 +69,16 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-primary shrink-0 mt-0.5" />
-                <span className="text-gray-300">123 College Road, University Area, City - 123456, State, India</span>
+                <span className="text-gray-300">Beside NH-75, At- Chetna, Garhwa, Dist, Garhwa, Jharkhand 822114, India</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-primary shrink-0" />
                 <span className="text-gray-300">+91 9162486419</span>
+                {/* <span className="text-gray-300">+91 9162486419</span> */}
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary shrink-0" />
-                <span className="text-gray-300">info@spdcollege.edu.in</span>
+                <span className="text-gray-300">spdc.npu2015@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Clock className="h-5 w-5 mr-3 text-primary shrink-0 mt-0.5" />
@@ -166,9 +167,21 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="bg-gray-950 py-4">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} S.P.D College. All Rights Reserved.
-          </p>
+         <p className="text-gray-400 text-sm text-center md:text-left">
+          <span> &copy; {new Date().getFullYear()} S.P.D College. All Rights Reserved.</span>
+         </p>
+        <p className="text-gray-400 text-sm text-center md:text-left">
+  &copy; {new Date().getFullYear()} Designed And Developed By{" "}
+  <a
+    href="https://www.a1networkitsolutions.com" // <- replace with your actual URL
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-primary font-bold hover:underline"
+  >
+    A1 Network and IT Solutions
+  </a>
+</p>
+
           <div className="flex space-x-4 mt-2 md:mt-0">
             <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition duration-300">
               Privacy Policy
